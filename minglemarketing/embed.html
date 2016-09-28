@@ -21,7 +21,6 @@
     <script>
         window.addEventListener("message",
             function(e) {
-                alert(e.origin);
                 if (e.origin !== 'http://guidos.github.io') {
                     return;
                 }
