@@ -22,10 +22,10 @@
         window.addEventListener("message",
             function(e) {
                 if (e.origin !== 'https://guidos.github.io') {
-                    alert(e.origin + '\nhttps://guidos.github.io');
+                    alert(e.origin+' is not the expected domain');
                     return;
                 }
-                alert(e.data);
+                location = e.data;
             },
             false);
     </script>
