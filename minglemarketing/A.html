@@ -7,6 +7,7 @@
     <script>
         window.addEventListener("message",
             function(e) {
+              console.log('addEventListener')
                 console.log(e.origin)
                 if (e.origin !== 'B') {
                     return;
