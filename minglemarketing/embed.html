@@ -15,14 +15,14 @@
 </head>
 
 <body>
-    <iframe src="https://guidos.github.io/minglemarketing/map.html" width="400" height="300">
+    <iframe src="https://s3.amazonaws.com/guidostein/public/minglemarketing/map.html" width="400" height="300">
         <p>Your browser does not support iframes.</p>
     </iframe>
     <script>
         window.addEventListener("message",
             function(e) {
                 if (e.origin !== 'https://guidos.github.io') {
-                    alert(e.origin+' is not the expected domain');
+                    alert(e.origin + ' is not the expected domain');
                     return;
                 }
                 location = e.data;
