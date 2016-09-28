@@ -1,0 +1,14 @@
+<html>
+<head></head>
+<body>
+    <iframe src="B"></iframe>
+    <script>
+        window.addEventListener( "message",
+          function (e) {
+                if(e.origin !== 'B'){ return; }
+                alert(e.data);
+          },
+          false);
+    </script>
+</body>
+</html>

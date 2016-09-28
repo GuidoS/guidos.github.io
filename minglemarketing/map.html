@@ -10,8 +10,8 @@
         html,
         body,
         #map {
-            height: 500px;
-            width: 500px;
+            height: 100%;
+            width: 100%;
             padding: 0;
             margin: 0;
         }
@@ -35,7 +35,6 @@
                     // layer 0 is the base layer, layer 1 is cartodb layer
                     layers[1].setInteraction(true);
                     layers[1].on('featureClick', function(e, latlng, pos, data) {
-                        console.log("mouse clicked polygon with data: " + JSON.stringify(data));
                         data1 = data.cartodb_id;
 
                         // use SQL API to extract the attribute values from the selected polygons
@@ -52,10 +51,12 @@
                             function(data) {
                                 for (i = 0; i < data.total_rows; i++) {
                                     var url = data.rows[i].url;
+                                    console.log("mouse clicked polygon with data: " + JSON.stringify(this));
+                                    top.postMessage('hello', 'A');
                                     // console.log(url);
                                     // location = url
                                     // window.open(url, '_blank');
-                                    parent.document.location.href = url;
+                                    // parent.document.location.href = url;
                                 }
                             }
                         );
