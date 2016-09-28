@@ -30,11 +30,11 @@ function main() {
                     function(data) {
                         for (i = 0; i < data.total_rows; i++) {
                             var url = data.rows[i].url;
-                            // console.log("mouse clicked polygon with data: " + JSON.stringify(this));
+                            console.log(url);
                             top.postMessage(
                                 url,
                                 'http://guidos.github.io');
-                            // console.log(url);
+                            // console.log("mouse clicked : " + JSON.stringify(this));
                             // location = url
                             // window.open(url, '_blank');
                             // parent.document.location.href = url;
