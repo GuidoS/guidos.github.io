@@ -53,8 +53,9 @@
                                 for (i = 0; i < data.total_rows; i++) {
                                     var url = data.rows[i].url;
                                     // console.log(url);
-                                    location = url
-                                        // window.open(url, '_blank');
+                                    // location = url
+                                    // window.open(url, '_blank');
+                                    parent.document.location.href = url;
                                 }
                             }
                         );
