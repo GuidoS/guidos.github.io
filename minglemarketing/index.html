@@ -5833,7 +5833,8 @@
                                 <span class="hljs-keyword">for</span> (i = <span class="hljs-number">0</span>; i &lt; data.total_rows; i++) {
                                     <span class="hljs-keyword">var</span> url = data.rows[i].url;
                                     <span class="hljs-comment">// console.log(url);</span>
-                                    location = url
+                                    <!-- location = url -->
+                                    window.top.location.href = url
                                         <span class="hljs-comment">// window.open(url, '_blank');</span>
                                 }
                             }
