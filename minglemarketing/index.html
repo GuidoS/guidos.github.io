@@ -5834,7 +5834,8 @@
                                     <span class="hljs-keyword">var</span> url = data.rows[i].url;
                                     <span class="hljs-comment">// console.log(url);</span>
                                     <!-- location = url -->
-                                    window.top.location.href = url
+                                    <!-- window.top.location.href = url; -->
+                                    parent.document.location.href = url;
                                         <span class="hljs-comment">// window.open(url, '_blank');</span>
                                 }
                             }
