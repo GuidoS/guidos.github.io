@@ -51,6 +51,7 @@
                             function(data) {
                                 for (i = 0; i < data.total_rows; i++) {
                                     var url = data.rows[i].url;
+                                    console.log('click');
                                     top.postMessage(
                                         url,
                                         'https://guidos.github.io');
