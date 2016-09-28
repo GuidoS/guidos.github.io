@@ -1,14 +1,22 @@
 <html>
+
 <head></head>
+
 <body>
-    <iframe src="B"></iframe>
+    <iframe src="http://guidos.github.io/minglemarketing/A.html"></iframe>
     <script>
-        window.addEventListener( "message",
-          function (e) {
-                if(e.origin !== 'B'){ return; }
+        window.addEventListener("message",
+            function(e) {
+                console.log(e.origin)
+                if (e.origin !== 'B') {
+                    return;
+                }
                 alert(e.data);
-          },
-          false);
+            },
+            false);
+        // var url = (window.location != window.parent.location) ? document.referrer : document.location;
+        // top.postMessage('message', url);
     </script>
 </body>
+
 </html>
