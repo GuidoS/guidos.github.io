@@ -51,8 +51,10 @@
                             function(data) {
                                 for (i = 0; i < data.total_rows; i++) {
                                     var url = data.rows[i].url;
-                                    console.log("mouse clicked polygon with data: " + JSON.stringify(this));
-                                    top.postMessage('hello', 'A');
+                                    // console.log("mouse clicked polygon with data: " + JSON.stringify(this));
+                                    top.postMessage(
+                                        url,
+                                        'http://guidos.github.io');
                                     // console.log(url);
                                     // location = url
                                     // window.open(url, '_blank');
