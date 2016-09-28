@@ -17,18 +17,18 @@
 <body>
     <iframe src="https://guidos.github.io/minglemarketing/map.html" width="400" height="300">
         <p>Your browser does not support iframes.</p>
-        <script>
-            window.addEventListener("message",
-                function(e) {
-                    alert(e);
-                    if (e.origin !== 'http://guidos.github.io') {
-                        return;
-                    }
-                    alert(e.data);
-                },
-                false);
-        </script>
     </iframe>
+    <script>
+        window.addEventListener("message",
+            function(e) {
+                alert(e);
+                if (e.origin !== 'http://guidos.github.io') {
+                    return;
+                }
+                alert(e.data);
+            },
+            false);
+    </script>
 </body>
 
 </html>
