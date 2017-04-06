@@ -46,7 +46,7 @@
 
     <h2>My Customers</h2>
 
-    <input id="myInput" style="width:30%;" type="text"  onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+    <input id="myInput" style="width:30%;" type="text" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
     <select id="topicFilter" style="width:30%" onchange="myFunction2()">
       <option value="Web Mapping">Web Mapping</option>
       <option value="Server">Server</option>
@@ -107,6 +107,7 @@
                 }
             }
         }
+
         function myFunction2() {
             var input, filter, table, tr, td, i;
             input = document.getElementById("topicFilter");
