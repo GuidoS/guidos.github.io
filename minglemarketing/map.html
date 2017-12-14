@@ -51,10 +51,10 @@
               function(data) {
                 for (i = 0; i < data.total_rows; i++) {
                   var url = data.rows[i].url;
-                  var data_push = data.rows[i]
+                  url += '?utm_source=cartomap&utm_content='+data.rows[i].name
                   console.log('sent ' + url);
                   top.postMessage(
-                    data_push,
+                    url,
                     'https://guidos.github.io');
                 }
               }
