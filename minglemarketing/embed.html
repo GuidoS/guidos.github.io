@@ -25,6 +25,7 @@
                     alert(e.origin + ' is not the expected domain');
                     return;
                 }
+                window.alert(e.data);
                 location = e.data.url;
             },
             false);
