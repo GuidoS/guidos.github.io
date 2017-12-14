@@ -51,7 +51,7 @@
               function(data) {
                 for (i = 0; i < data.total_rows; i++) {
                   var url = data.rows[i].url;
-                  url += '?utm_source=cartomap&utm_content='+data.rows[i].name
+                  url += '?utm_source=minglmap&utm_content='+data.rows[i].name
                   console.log('sent ' + url);
                   top.postMessage(
                     url,
