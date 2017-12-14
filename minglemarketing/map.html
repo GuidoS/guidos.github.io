@@ -51,9 +51,10 @@
               function(data) {
                 for (i = 0; i < data.total_rows; i++) {
                   var url = data.rows[i].url;
+                  var data_push = data.rows[i]
                   console.log('sent ' + url);
                   top.postMessage(
-                    url,
+                    data_push,
                     'https://guidos.github.io');
                 }
               }
