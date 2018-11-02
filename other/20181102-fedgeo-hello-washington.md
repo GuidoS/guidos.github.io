@@ -53,4 +53,4 @@ Universities
 - Introduction to the new OSM ED for Guido (Ian)
 - Discuss potential sponsorship and welcome party (Guido, Ian)
 - Share information about FedGeo with contacts (Ian, Primoz)
-  - https://gedgeo.us
+  - https://fedgeo.us
