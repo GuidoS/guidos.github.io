@@ -4,34 +4,36 @@
 
 In attendance:
 
-- Ian (dc - dev seed)
-- Primoz (kenya - spatial collective)
+- Guido (Boston - Applied Geographics, OSGeo.US)
+- Ian (Washington DC - Development Seed)
+- Primoz (Kenya - Spatial Collective)
 
 ## DC Outreach
 
-- ID
-  - World bank geospatial operational support team
-    - Zanzibar Team working with Open Cities Africa is in DC
-      - working on open sourcing data collection for zanzibar
-  - USAID
-  - NASA - parts which focus on id
-  - OSM & HOT OSM
-- Universities
-  - Groge Washington
-  - American University
-  - Georgetown
-  - Maryland
+ID
 
-## How can this event be helpful to ID 
+- World bank geospatial operational support team
+  - Zanzibar Team working with Open Cities Africa is in DC
+    - working on open sourcing data collection for zanzibar
+- USAID
+- NASA - parts which focus on id
+- OSM & HOT OSM
 
-- Video recordings
-  - useful to have videos to help others not feel as suspicious about open
-    - creating pathway for other orgs/government
-  - best sessions to record 
-    - overview of topics
-    - state of the art
-    - best practices
-  - working group meetings are not as useful to record
+Universities
+
+- Groge Washington
+- American University
+- Georgetown
+- Maryland
+
+## Video recordings
+- useful to have videos to help others not feel as suspicious about open
+  - creating pathway for other orgs/government
+- best sessions to record 
+  - overview of topics
+  - state of the art
+  - best practices
+- working group meetings are not as useful to record
 - Oppurtunity for ID community and other communities to get take aways about what is working for the US Federal Government
 
 ## other
@@ -45,3 +47,9 @@ In attendance:
 ## Not Sure
 
 - ICT??
+
+## Action Items
+
+- Introduction to the new OSM ED for Guido (Ian)
+- Discuss potential sponsorship and welcome party (Guido, Ian)
+- Share information about FedGeo with contacts (Ian, Primoz)
