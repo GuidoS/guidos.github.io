@@ -269,11 +269,7 @@ GEM
     thread_safe (0.3.6)
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
-<<<<<<< HEAD
-    tzinfo (1.2.9)
-=======
     tzinfo (1.2.10)
->>>>>>> 57709ee65a896309044cdcaaafca1a095de63d27
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
