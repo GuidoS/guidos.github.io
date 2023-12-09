@@ -7,16 +7,11 @@ module.exports = {
     author: "Guido Stein",
   },
   plugins: [
+    "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "images",
-        path: path.join(`${__dirname}`, "src", "images"),
-      },
-    },
-    "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+    "gatsby-transformer-toml",
     {
       resolve: "gatsby-plugin-sass",
       options: {
@@ -37,6 +32,23 @@ module.exports = {
         icon: "src/images/gatsby-icon.png", // This path is relative to the root of the site.
       },
     },
-    "gatsby-plugin-gatsby-cloud",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "images",
+        path: path.join(`${__dirname}`, "src", "images"),
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "presentations",
+        path: path.join(__dirname, "src", "pages", "presentations"),
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {},
+    },
   ],
 }

@@ -15,11 +15,14 @@
     "gatsby-plugin-sass": "^6.1.0",
     "gatsby-plugin-sharp": "^5.1.0",
     "gatsby-source-filesystem": "^5.1.0",
+    "gatsby-transformer-remark": "^6.12.3",
     "gatsby-transformer-sharp": "^5.1.0",
+    "gatsby-transformer-toml": "^5.12.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.0.0",
-    "sass": "1.49.11"
+    "sass": "1.49.11",
+    "toml": "^3.0.0"
   },
   "devDependencies": {
     "prettier": "2.5.1"
