@@ -26,12 +26,12 @@ const presentations = ({ data }) => {
           <h1>Presentations</h1>
           {data.presentationsToml.links.map(node => (
             <div>
-              {" "}
               <h2>
                 <a href={node.link}>{node.title}</a>
               </h2>
               <p>
-                {node.date}, {node.location} <br />
+                {`${[node.date, node.location].filter(n => n).join(", ")}`}{" "}
+                <br />
                 {node.description}
               </p>
             </div>

@@ -17,4 +17,32 @@ title = "What is OSGeo.US"
 link = "http://guidos.link/osgeo-us-faq/"
 date = "01/14/2019"
 location = "NYC"
-description = "This presentation was given at GeoNYC"
+description = "This presentation was given at [GeoNYC](https://www.meetup.com/geonyc/)"
+
+[[links]]
+title = "The GIS In Data Science"
+link = "http://guidos.link/the-gis-in-data-science/"
+date = ""
+location = ""
+description = "Presentation given at NEURISA 2018"
+
+[[links]]
+title = "Demystifying Data Science"
+link = "http://slides.com/guidostein-appgeo/demystifying_data_science/fullscreen"
+date = ""
+location = ""
+description = "Presentation given at Spring NEARC 2018"
+
+[[links]]
+title = "Open Source Adoption"
+link = "https://guidos.github.io/neurisa-adoption/take2/"
+date = ""
+location = ""
+description = "Presentation given to the CT GIS Network"
+
+[[links]]
+title = "Open Source Adoption Counceling"
+link = "http://guidos.github.io/neurisa-adoption/"
+date = ""
+location = ""
+description = "Presentation given at NEURISA 2018"
