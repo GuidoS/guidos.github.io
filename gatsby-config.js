@@ -2,8 +2,8 @@ const path = require("node:path")
 
 module.exports = {
   siteMetadata: {
-    title: "Guido Stein's Link Page",
-    description: "A link page for all the fun Guido shares",
+    title: "Guido Stein - Geospatial Community Wrangler",
+    description: "A page for all the fun Guido does",
     author: "Guido Stein",
   },
   plugins: [

@@ -22,27 +22,41 @@ description = "This presentation was given at [GeoNYC](https://www.meetup.com/ge
 [[links]]
 title = "The GIS In Data Science"
 link = "http://guidos.link/the-gis-in-data-science/"
-date = ""
-location = ""
+date = "2018"
+location = "NEURISA"
 description = "Presentation given at NEURISA 2018"
 
 [[links]]
 title = "Demystifying Data Science"
 link = "http://slides.com/guidostein-appgeo/demystifying_data_science/fullscreen"
-date = ""
-location = ""
+date = "2018"
+location = "NEARC"
 description = "Presentation given at Spring NEARC 2018"
 
 [[links]]
 title = "Open Source Adoption"
 link = "https://guidos.github.io/neurisa-adoption/take2/"
 date = ""
-location = ""
+location = "CT GIS"
 description = "Presentation given to the CT GIS Network"
 
 [[links]]
 title = "Open Source Adoption Counceling"
 link = "http://guidos.github.io/neurisa-adoption/"
-date = ""
-location = ""
-description = "Presentation given at NEURISA 2018"
+date = "2017"
+location = "NEURISA"
+description = "Presentation given at NEURISA 2017"
+
+[[links]]
+title = "FOSS4G Boston 2017 Welcome Movie"
+link = "https://s3.amazonaws.com/guidostein/foss4g/welcome+1.0.0.mov"
+date = "2017"
+location = "Boston"
+description = "A welcome video I put together from the FOSS4G Boston 2017"
+
+[[links]]
+title = "Everything is Awesome - Python + Geospatial + SQL"
+link = "http://guidos.link/2015-neurisa-day-everything-is-awesome/#/awesome"
+date = "2015"
+location = "NEURISA"
+description = "Presentation given at NEURISA 2015"
